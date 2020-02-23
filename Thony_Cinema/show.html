@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<meta name="description" content="ThonyCinema - this is a movie portal">
+	<meta name="keywords" content="movies , online , hd">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<script src="https://kit.fontawesome.com/e6a4fc9da2.js" crossorigin="anonymous"></script>
+</head>
+<body> 
+
+	<div class="main">
+
+		<div class="header">
+			<div class="logo">
+				<div class="logo_text">
+					<h1><a href="/">Th<i class="far fa-play-circle"></i>nyCinema</a></h1>
+					<h2>Cinema is our passion!</h2>
+				</div>
+			</div>
+
+			<div class="menubar">
+				<ul class="menu">
+					<li class="selected"><a href="#">Home</a></li>
+					<li><a href="#">Movies</a></li>
+					<li><a href="#">Serials</a></li>
+					<li><a href="#">Movie Rating</a></li>
+					<li><a href="#">Contacts</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="site_content">
+			<div class="sidebar_container">
+				<div class="sidebar">
+					<h2>Search</h2>
+					<form method="post" action="#" id="search-form">
+						<input type="search" name="search_field" placeholder="your request" />
+						<input type="submit" class="btn" value="Find" />
+					</form>
+					
+				</div>
+				<div class="sidebar">
+					<h2>Enter</h2>
+					<form method="post" action="#" id="login">
+						<input type="text" name="login_field" placeholder="login"/>
+						<input type="password" name="password_field" placeholder="password"/>
+						<input type="submit" class="btn" value="enter"/>
+						<div class="lables_passreg_text">
+							<span><a href="#">Forgot your password? </a></span><i class="fas fa-key"></i><span><a href="#"> registration</a></span>
+						</div> 
+					</form>
+				</div>
+				<div class="sidebar">
+					<h2>News</h2>
+					<span>13.01.2020</span>
+					<p>We launched an advanced search</p>
+				    <a href="#">Read</a>
+				</div>
+				<div class="sidebar">
+					<h2>Movie Rating</h2>
+					<ul>
+						<li><a href="#">Interstellar</a><span class="rating_sidebar">8.1</span></li>
+						<li><a href="#">Matrix</a><span class="rating_sidebar">7.1</span></li>
+						<li><a href="#">Mad Max</a><span class="rating_sidebar">7.0</span></li>
+						<li><a href="#">Star Wars</a><span class="rating_sidebar">6.8</span></li>
+					</ul>
+					
+				</div>
+				
+			</div>
+			<div class="content">
+				<h1>Iterstellar</h1>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/zSWdZVtXT7E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<div class="info_film_page">
+					<span class="label">Rating: </span><span class="value">8.1/10</span>
+					<span class="label">Year: </span><span class="value">2014</span>
+					<span class="label">Producer: </span><span class="value">Christopher Nolan</span>
+				</div>
+
+				<hr>
+
+				<h2>Interstellar description</h2>
+				<div class="description_film">
+					<img src="assets/img/inter.png">
+					When drought, dust storms, and the extinction of plants lead humanity to a food crisis, a team of researchers and scientists travel through a wormhole (which supposedly connects space-time regions over a long distance) on a journey to transcend the former restrictions on human space travel and find a planet with suitable humanity conditions.				
+				</div>
+
+				<hr>
+				<h2>Reviews about Interstellar</h2>
+
+				<div class="send">
+					<form method="post" action="#" id="review">
+						<input type="text" name="review_name" placeholder="your name">
+						<textarea name="review_text"></textarea>
+						<input type="submit" class="btn" value="send">
+					</form>
+				</div>
+
+			</div>
+
+	    </div>
+
+   	<div class="footer">
+			 	 <p>
+			 		<a href="#">Home</a> |
+			 		<a href="#">Movies</a> |
+			 		<a href="#">Serials</a> |
+			 		<a href="#">Movie Rating</a> |
+			 		<a href="#">Contacts</a>
+			 	 </p>
+			 	 <p>wh-db.com 2020</p>
+	</div>
+	</div>
+</body>
+</html>
